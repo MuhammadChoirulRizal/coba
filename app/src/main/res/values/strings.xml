@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">coba</string>
+    <string name="tagline">Private Screening Room Booking</string>
+
+    <!-- Auth & Profile -->
+    <string name="label_login">Masuk</string>
+    <string name="label_register">Daftar Akun</string>
+    <string name="label_full_name">Nama Lengkap</string>
+    <string name="label_email">Alamat Email</string>
+    <string name="label_password">Kata Sandi</string>
+    <string name="prompt_no_account">Belum punya akun? Daftar sekarang</string>
+    <string name="prompt_have_account">Sudah punya akun? Masuk</string>
+    <string name="title_profile">Profil Saya</string>
+    <string name="label_role">Peran Pengguna</string>
+
+    <string name="nav_home">Katalog</string>
+    <string name="nav_booking">Booking</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_admin">Kelola</string>
+    <string name="title_movie_detail">Detail Film &amp; Screening</string>
+    <string name="title_my_bookings">Riwayat Pemesanan Ruangan</string>
+    <string name="label_room_number">Nomor Ruangan (Private Room)</string>
+    <string name="label_booking_date">Tanggal &amp; Waktu Tayang</string>
+    <string name="label_total_price">Total Pembayaran</string>
+    <string name="label_status_pending">MENUNGGU KONFIRMASI</string>
+    <string name="label_status_confirmed">DIKONFIRMASI</string>
+    <string name="label_status_cancelled">DIBATALKAN</string>
+    <string name="btn_confirm_booking">Pesan Ruangan Sekarang</string>
+    <string name="btn_cancel_booking">Batalkan Pesanan</string>
+    <string name="btn_download_ticket">Simpan E-Ticket (PDF)</string>
+    <!-- Admin Management -->
+    <string name="title_admin_dashboard">Dashboard Admin FirstPlay</string>
+    <string name="title_manage_movies">Kelola Katalog Film</string>
+    <string name="title_manage_categories">Kelola Kategori</string>
+    <string name="btn_add_movie">Tambah Film Baru</string>
+    <string name="btn_add_category">Tambah Kategori</string>
+    <string name="label_movie_title">Judul Film</string>
+    <string name="label_duration">Durasi (Menit)</string>
+    <string name="label_price_per_hour">Harga Sewa / Jam</string>
+    <!-- Actions & Common Labels -->
+    <string name="btn_save">Simpan</string>
+    <string name="btn_edit">Ubah</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="btn_logout">Keluar Akun</string>
+    <string name="btn_retry">Coba Lagi</string>
+
+    <!-- State & Validation Messages -->
+    <string name="msg_loading">Memuat data FirstPlay...</string>
+    <string name="msg_empty_movies">Belum ada katalog film yang tersedia.</string>
+    <string name="msg_empty_bookings">Kamu belum pernah memesan ruangan screening.</string>
+    <string name="msg_error_network">Gagal terhubung ke server Express.js. Periksa koneksi internet.</string>
+    <string name="msg_invalid_email">Format email tidak valid.</string>
+    <string name="msg_password_too_short">Kata sandi minimal 6 karakter.</string>
+    <string name="msg_ticket_saved">E-Ticket berhasil disimpan ke penyimpanan lokal!</string>
+</resources>
